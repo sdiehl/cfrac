@@ -1,0 +1,32 @@
+name:        cfrac
+version:     0.1.0
+synopsis:    Continued fractions
+description: Continued fractions
+maintainer:  Adjoint Inc (info@adjoint.io)
+license:     GPL
+github:      adjoint-io/cfrac
+category:    Arithmetic
+
+default-extensions:
+  - LambdaCase
+  - OverloadedStrings
+  - NoImplicitPrelude
+
+dependencies:
+  - base >= 4.10 && < 5
+  - protolude >= 0.2 && < 0.3
+
+extra-source-files:
+  - README.md
+  - ChangeLog.md
+
+ghc-options:
+  - -freverse-errors
+  - -O2
+  - -Wall
+
+library:
+  exposed-modules:
+    - Fraction
+  source-dirs:
+    - src
