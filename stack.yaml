@@ -1,2 +1,4 @@
 resolver: lts-14.7
-extra-deps: []
+extra-deps:
+  - git: https://github.com/sdiehl/protolude.git
+    commit: f5c2bf64b147716472b039d30652846069f2fc70

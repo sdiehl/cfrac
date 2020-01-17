@@ -3,7 +3,21 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    cabal-file:
+      size: 2571
+      sha256: 3487079017cacc264595d43cfa3bc011831abd1734c48c183fdb08c43e717aec
+    name: protolude
+    version: 0.3.0
+    git: https://github.com/sdiehl/protolude.git
+    pantry-tree:
+      size: 3124
+      sha256: 379d25ab5ff0c99260d1ed6039d7c1e766c926c4fb8d90d6d95eff8aaa0e0275
+    commit: f5c2bf64b147716472b039d30652846069f2fc70
+  original:
+    git: https://github.com/sdiehl/protolude.git
+    commit: f5c2bf64b147716472b039d30652846069f2fc70
 snapshots:
 - completed:
     size: 523700
