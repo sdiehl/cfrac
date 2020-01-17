@@ -14,7 +14,7 @@ default-extensions:
 
 dependencies:
   - base >= 4.10 && < 5
-  - protolude >= 0.3 && < 0.4
+  - protolude >= 0.2 && < 0.4
 
 extra-source-files:
   - README.md
