@@ -2,7 +2,6 @@
 *.sw[pon]
 *.prof
 *.prof.html
-cfrac.cabal
 *~
 *.hi
 *.o

@@ -1,0 +1,34 @@
+cabal-version:      1.12
+name:               cfrac
+version:            0.1.0
+license:            GPL
+license-file:       LICENSE
+maintainer:         Adjoint Inc (info@adjoint.io)
+homepage:           https://github.com/adjoint-io/cfrac#readme
+bug-reports:        https://github.com/adjoint-io/cfrac/issues
+synopsis:           Continued fractions
+description:        Continued fractions
+category:           Arithmetic
+build-type:         Simple
+extra-source-files:
+  README.md
+  ChangeLog.md
+
+source-repository head
+  type:     git
+  location: https://github.com/adjoint-io/cfrac
+
+library
+  exposed-modules:    Fraction
+  hs-source-dirs:     src
+  other-modules:      Paths_cfrac
+  default-language:   Haskell2010
+  default-extensions:
+    NoImplicitPrelude
+    LambdaCase
+    OverloadedStrings
+
+  ghc-options:        -freverse-errors -O2 -Wall
+  build-depends:
+      base       >=4.10 && <5
+    , protolude  >=0.2  && <0.3
